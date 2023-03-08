@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: aqua;
+  margin: 2rem;
+}
+.data {
+  position: relative;
+  width: 100%;
+}
+.inputBox {
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 50%;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+button {
+  margin: 10px;
+}
+.listItems,
+.searchItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.title2 {
+  margin: 20px;
+  /* padding: 10px; */
+  font-size: 22px;
+  text-decoration: underline;
+  font-weight: bold;
+}
